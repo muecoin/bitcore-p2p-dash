@@ -65,6 +65,28 @@ describe('Command Messages', function() {
 
   });
 
+  describe('TXLockRequest', function() {
+
+      it('should accept a transaction instance as an argument', function() {
+          var tx = new bitcore.Transaction();
+          var message = messages.TXLockRequest(tx);
+          message.transaction.should.be.instanceof(bitcore.Transaction);
+      });
+
+      it('should create a transaction instance', function() {
+          var message = messages.TXLockRequest();
+          message.transaction.should.be.instanceof(bitcore.Transaction);
+      });
+
+      it('version should remain the same', function() {
+          var tx = new bitcore.Transaction();
+          var version = Number(tx.version);
+          var message = messages.TXLockRequest(tx);
+          message.transaction.version.should.equal(version);
+      });
+
+  });
+
   describe('Block', function() {
 
     it('should accept a block instance as an argument', function() {
