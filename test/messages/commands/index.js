@@ -85,6 +85,16 @@ describe('Command Messages', function() {
           message.transaction.version.should.equal(version);
       });
 
+      it('should work with Transaction.fromBuffer', function(done) {
+          var Transaction = sinon.stub();
+          Transaction.fromBuffer = function() {
+            done();
+          };
+          var messagesCustom = new Messages({TXLockRequest: Transaction, Transaction: Transaction});
+          var message = messagesCustom.TXLockRequest.fromBuffer();
+          should.exist(message);
+      });
+
   });
 
   describe('Block', function() {
