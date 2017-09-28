@@ -1,23 +1,22 @@
-Bitcore P2P-Dash
+Bitcore P2P-MUE
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-p2p-dash.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-p2p-dash)
-[![Build Status](https://img.shields.io/travis/dashpay/bitcore-p2p-dash.svg?branch=master&style=flat-square)](https://travis-ci.org/dashpay/bitcore-p2p-dash)
-[![Coverage Status](https://img.shields.io/coveralls/dashpay/bitcore-p2p-dash.svg?style=flat-square)](https://coveralls.io/r/dashpay/bitcore-p2p-dash?branch=master)
+[![NPM](https://nodei.co/npm/bitcore-p2p-mue.png?mini=true)](https://www.npmjs.org/package/bitcore-p2p-mue)
+[![Build Status](https://travis-ci.org/muecoin/bitcore-p2p-mue.svg?branch=master)](https://travis-ci.org/muecoin/bitcore-p2p-mue)
+[![Coverage Status](https://coveralls.io/repos/github/muecoin/bitcore-p2p-mue/badge.svg?branch=master)](https://coveralls.io/github/muecoin/bitcore-p2p-mue?branch=master)
+`bitcore-p2p-mue` adds MUE protocol support for Bitcore-MUE.
 
-`bitcore-p2p-dash` adds Dash protocol support for Bitcore-Dash.
-
-See [the main bitcore-dash repo](https://github.com/dashpay/bitcore-dash) for more information.
+See [the main bitcore-mue repo](https://github.com/muecoin/bitcore-mue) for more information.
 
 ## Getting Started
 
 ```sh
-npm install bitcore-p2p-dash
+npm install bitcore-p2p-mue
 ```
-In order to connect to the Dash network, you'll need to know the IP address of at least one node of the network, or use [Pool](/docs/pool.md) to discover peers using a DNS seed.
+In order to connect to the MUE network, you'll need to know the IP address of at least one node of the network, or use [Pool](/docs/pool.md) to discover peers using a DNS seed.
 
 ```javascript
-var Peer = require('bitcore-p2p-dash').Peer;
+var Peer = require('bitcore-p2p-mue').Peer;
 
 var peer = new Peer({host: '127.0.0.1'});
 

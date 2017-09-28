@@ -1,10 +1,10 @@
 'use strict';
-
+// TODO update hashes
 /*jshint immed: false */
 
 var should = require('chai').should();
 
-var bitcore = require('bitcore-lib-dash');
+var bitcore = require('bitcore-lib-mue');
 var P2P = require('../');
 var Inventory = P2P.Inventory;
 var BufferUtils = bitcore.util.buffer;

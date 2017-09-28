@@ -1,12 +1,12 @@
 'use strict';
-
+// TODO update variables
 var chai = require('chai');
 
 /* jshint unused: false */
 var should = chai.should();
 var expect = chai.expect;
 
-var bitcore = require('bitcore-lib-dash');
+var bitcore = require('bitcore-lib-mue');
 var P2P = require('../');
 var Peer = P2P.Peer;
 var MessagesData = require('./data/messages');

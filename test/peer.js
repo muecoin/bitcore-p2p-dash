@@ -1,5 +1,5 @@
 'use strict';
-
+// TODO update ports
 var chai = require('chai');
 var Net = require('net');
 var Socks5Client = require('socks5-client');
@@ -10,7 +10,7 @@ var expect = chai.expect;
 var sinon = require('sinon');
 var fs = require('fs');
 
-var bitcore = require('bitcore-lib-dash');
+var bitcore = require('bitcore-lib-mue');
 var _ = bitcore.deps._;
 var P2P = require('../');
 var Peer = P2P.Peer;

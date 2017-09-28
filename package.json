@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-p2p-dash",
-  "version": "1.1.3",
-  "description": "Interface to the dash P2P network for bitcore-dash",
+  "name": "bitcore-p2p-mue",
+  "version": "0.1.0",
+  "description": "Interface to the MUE P2P network for bitcore-mue",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -41,24 +41,30 @@
     },
     {
       "name": "Elichai Turkel"
+    },
+    {
+      "name": "AL Z",
+      "email": "awz@empirictechs.com"
     }
   ],
   "keywords": [
     "bitcoin",
-    "bitcore"
+    "bitcore",
+    "monetaryunit",
+    "mue"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/muecoin/bitcore-p2p-mue.git"
   },
   "dependencies": {
-    "bitcore-lib-dash": "^0.13.19",
+    "bitcore-lib-mue": "latest",
     "bloom-filter": "^0.2.0",
     "buffers": "^0.1.1",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "bitcore-build-dash": "dashpay/bitcore-build-dash",
+    "bitcore-build-mue": "latest",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
