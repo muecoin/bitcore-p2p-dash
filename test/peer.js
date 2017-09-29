@@ -1,5 +1,5 @@
 'use strict';
-// TODO update ports
+
 var chai = require('chai');
 var Net = require('net');
 var Socks5Client = require('socks5-client');

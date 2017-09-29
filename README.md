@@ -1,9 +1,9 @@
 Bitcore P2P-MUE
 =======
-
-[![NPM](https://nodei.co/npm/bitcore-p2p-mue.png?mini=true)](https://www.npmjs.org/package/bitcore-p2p-mue)
+[![NPM Package](https://img.shields.io/npm/v/bitcore-p2p-mue.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-p2p-mue)
 [![Build Status](https://travis-ci.org/muecoin/bitcore-p2p-mue.svg?branch=master)](https://travis-ci.org/muecoin/bitcore-p2p-mue)
 [![Coverage Status](https://coveralls.io/repos/github/muecoin/bitcore-p2p-mue/badge.svg?branch=master)](https://coveralls.io/github/muecoin/bitcore-p2p-mue?branch=master)
+
 `bitcore-p2p-mue` adds MUE protocol support for Bitcore-MUE.
 
 See [the main bitcore-mue repo](https://github.com/muecoin/bitcore-mue) for more information.
